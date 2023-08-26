@@ -7,20 +7,25 @@
 }
 
 body {
-	background-color: blanchedalmond; 
+	background-color: lightsalmon; 
 	padding: 40px; 
 }
 
 header {
-	background-color: coral;
-	width: 1300px;
-	height: 340px;  
-	padding: 20px; 
-	border-width: 5px;
+	background-color: bisque; 
+	padding: 20px;
+	margin: 30px; 
+	border-width: 3px;
 	border-color: chocolate;
 	border-style: solid; 
 }
 
 h1 {
 	font-size: 40px;
+}
+
+.sec1, .sec2, .sec3, .sec4, .sec5, .sec6 {
+	background-color: floralwhite; 
+	padding: 30px; 
+	margin: 30px; 
 }
