@@ -1,6 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
 
+  @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;600&display=swap');
+
 *{
 	margin: 0px;
 	padding: 0px
@@ -22,23 +25,23 @@ header {
 
 h1 {
 	font-size: 50px;
-	font-family: "El Messiri", "sans-serif"; 
+	font-family: 'El Messiri', "sans-serif"; 
 	color: darkred; 
 }
 
 h3 {
 	font-size: 25px;
-	font-family: "Signika Light", "sans-serif"; 
+	font-family: 'Signika Light', "sans-serif"; 
 }
 
 h4 {
 	font-size: 19px; 
-	font-family: "Signika SemiBold", "sans-serif"; 
+	font-family: 'Signika SemiBold', "sans-serif"; 
 }
 
 p, ul {
-	font-size: 16px; 
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
+	font-size: 18px; 
+	font-family: Baskerville, "Times New Roman", "serif"
 }
 
 .sec1, .sec2, .sec3, .sec4, .sec5, .sec6 {
