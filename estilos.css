@@ -10,35 +10,39 @@
 }
 
 body {
-	background-color: lightsalmon; 
+	background-color: navajowhite; 
 	padding: 40px;
+	margin: 70px; 
 }
 
 header {
-	background-color: bisque; 
+	background-color: goldenrod; 
 	padding: 20px;
 	margin: 30px; 
-	border-width: 3px;
-	border-color: chocolate;
-	border-style: solid;
+	border-width: 4px;
+	border-color: darkgoldenrod; 
+	border-style: solid; 
 	border-radius: 20px;
 	display: flex; 
-	align-items: center;   
+	align-items: center; 
+	justify-content: center; 
+	 
+	
 }
 
 div {
 	display: flex;  
-	flex-direction: column;  
+	flex-direction: column; 
+	margin-left: 30px; 
 }
 
 h1 {
-	font-size: 50px;
-	font-family: 'El Messiri', "sans-serif"; 
-	color: darkred;  
+	font-size: 55px;
+	font-family: 'El Messiri', "sans-serif";   
 }
 
 h3 {
-	font-size: 25px;
+	font-size: 25px; 
 	font-family: 'Signika Light', "sans-serif";  
 }
 
@@ -46,6 +50,7 @@ main {
 	display: flex; 
 	flex-direction: row; 
 	align-items: center; 
+	justify-content: center; 
 }
 
 .columna1 {
@@ -69,11 +74,21 @@ p, ul {
 	font-family: Baskerville, "Times New Roman", "serif"
 }
 
-.sec1, .sec2, .sec3, .sec4, .sec5, .sec6 {
-	background-color: floralwhite; 
+.sec1, .sec2, .sec3 {
+	background-color: burlywood; 
 	padding: 30px; 
 	margin: 30px; 
 	border-radius: 20px;
+	width: 270px; 
+}
+
+.sec4, .sec5, .sec6 {
+	background-color: chocolate; 
+	color: white; 
+	padding: 30px; 
+	margin: 30px; 
+	border-radius: 20px;
+	width: 420px;	
 }
 
 a {
@@ -82,10 +97,10 @@ a {
 }
 
 a:hover {
-	color: deeppink; 
+	color: darkred; 
 	font-size: 20px; 
 }
 
 a:active {
-	color: hotpink; 
+	color: orangered; 
 }
