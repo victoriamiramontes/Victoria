@@ -11,7 +11,7 @@
 
 body {
 	background-color: lightsalmon; 
-	padding: 40px; 
+	padding: 40px;
 }
 
 header {
@@ -48,4 +48,18 @@ p, ul {
 	background-color: floralwhite; 
 	padding: 30px; 
 	margin: 30px; 
+}
+
+a {
+	text-decoration: none;
+	color: black; 
+}
+
+a:hover {
+	color: deeppink; 
+	font-size: 20px; 
+}
+
+a:active {
+	color: hotpink; 
 }
