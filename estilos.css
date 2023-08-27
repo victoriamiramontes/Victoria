@@ -21,7 +21,24 @@ header {
 }
 
 h1 {
-	font-size: 40px;
+	font-size: 50px;
+	font-family: "El Messiri", "sans-serif"; 
+	color: darkred; 
+}
+
+h3 {
+	font-size: 25px;
+	font-family: "Signika Light", "sans-serif"; 
+}
+
+h4 {
+	font-size: 19px; 
+	font-family: "Signika SemiBold", "sans-serif"; 
+}
+
+p, ul {
+	font-size: 16px; 
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
 }
 
 .sec1, .sec2, .sec3, .sec4, .sec5, .sec6 {
