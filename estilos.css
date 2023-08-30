@@ -112,10 +112,14 @@ a:active {
 }
 
 footer {
-	background-color: darkkhaki;
+	background-color: darkkhaki; 
 	font-family: Baskerville, "Times New Roman", "serif";
-	font-size: 10px; 
+	font-size: 14px; 
+	color: #393939; 
 	width: 950px; 
-	padding: 30px;
-	margin-top: 60px; 
+	padding: 13px;
+	margin-top: 90px;  
+	border-radius: 8px;
+	display: flex;   
+	justify-content: space-around; 
 }
