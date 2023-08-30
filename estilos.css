@@ -110,3 +110,12 @@ a:hover {
 a:active {
 	color: orangered; 
 }
+
+footer {
+	background-color: darkkhaki;
+	font-family: Baskerville, "Times New Roman", "serif";
+	font-size: 10px; 
+	width: 950px; 
+	padding: 30px;
+	margin-top: 60px; 
+}
