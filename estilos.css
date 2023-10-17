@@ -5,14 +5,14 @@
   @import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;600&display=swap');
 
 *{
-	margin: 0px;
-	padding: 0px
+	margin: 0%;
+	padding: 0%;
 }
 
 body {
 	background-color: navajowhite; 
-	padding: 40px;
-	margin: 70px; 
+	padding: 5%;
+	margin: 5%; 
 	display: flex;
 	flex-direction: column;
 	align-items: center; 
@@ -20,9 +20,9 @@ body {
 
 header {
 	background-color: goldenrod;
-	width: 950px; 
-	padding: 30px;  
-	border-width: 4px;
+	width: 100%; 
+	padding: 3%;  
+	border-width: 4%;
 	border-color: darkgoldenrod; 
 	border-style: solid; 
 	border-radius: 30px;
@@ -34,7 +34,7 @@ header {
 div {
 	display: flex;  
 	flex-direction: column; 
-	margin-left: 30px; 
+	margin-left: 2%; 
 }
 
 h1 {
@@ -116,7 +116,7 @@ footer {
 	font-family: Baskerville, "Times New Roman", "serif";
 	font-size: 14px; 
 	color: #393939; 
-	width: 950px; 
+	width: 100%; 
 	padding: 13px;
 	margin-top: 90px;  
 	border-radius: 8px;
