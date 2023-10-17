@@ -11,8 +11,8 @@
 
 body {
 	background-color: navajowhite; 
-	padding: 5%;
-	margin: 5%; 
+	padding: 6%;
+	margin: 2%; 
 	display: flex;
 	flex-direction: column;
 	align-items: center; 
@@ -49,7 +49,10 @@ h3 {
 }
 
 main {
-	margin-top: 5%; 
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 2%; 
 	display: flex; 
 	flex-direction: row; 
 	align-items: center; 
@@ -83,19 +86,19 @@ ul {
 
 .sec1, .sec2, .sec3 {
 	background-color: burlywood; 
-	padding: 40px; 
-	margin: 20px; 
+	padding: 8%; 
+	margin: 5%; 
 	border-radius: 20px;
-	width: 290px; 
+	width: 65%; 
 }
 
 .sec4, .sec5, .sec6 {
 	background-color: chocolate; 
 	color: white; 
-	padding: 40px; 
-	margin: 20px; 
+	padding: 10%; 
+	margin: 5%; 
 	border-radius: 20px;
-	width: 450px;	
+	width: 350px;	
 }
 
 a {
@@ -118,7 +121,7 @@ footer {
 	font-size: 14px; 
 	color: #393939; 
 	width: 100%; 
-	padding: 13px;
+	padding: 1%;
 	margin-top: 5%;  
 	border-radius: 8px;
 	display: flex;   
