@@ -34,16 +34,21 @@ header {
 nav {
 	position: sticky;
 	top: 0%; 
-	display: flex;
-	justify-content: space-around; 
 	width: 100%; 
 	padding: 1%;
 	margin-top: 2%;  
 	border-radius: 10px;
-	background-color: olive; 
+	background-color: olive;
+	display: flex;
+	justify-content: space-around; 
 }
 
-.contacto, .mis-trabajos {
+.botonera {
+	display: flex;
+	justify-content: space-between;  
+}
+
+.boton-contacto, .boton-mis-trabajos {
 	font-size: 19px; 
 	font-family: 'Signika SemiBold', "sans-serif";
 	color: white;
