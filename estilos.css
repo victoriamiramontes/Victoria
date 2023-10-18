@@ -20,7 +20,7 @@ body {
 
 header {
 	background-color: goldenrod;
-	width: 100%; 
+	width: 81%; 
 	padding: 3%;  
 	border-width: 4%;
 	border-color: darkgoldenrod; 
@@ -34,7 +34,7 @@ header {
 nav {
 	position: sticky;
 	top: 0%; 
-	width: 100%; 
+	width: 85%; 
 	padding: 1%;
 	margin-top: 2%;  
 	border-radius: 10px;
@@ -44,8 +44,6 @@ nav {
 }
 
 nav .botonera {
-	display: flex;   
-	flex-direction: column; 
 }
 
 .boton-contacto, .boton-mis-trabajos {
@@ -143,7 +141,7 @@ footer {
 	font-family: Baskerville, "Times New Roman", "serif";
 	font-size: 14px; 
 	color: #393939; 
-	width: 100%; 
+	width: 85%; 
 	padding: 0.5%;
 	margin-top: 5%;  
 	border-radius: 8px;
