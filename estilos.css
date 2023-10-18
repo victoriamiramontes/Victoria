@@ -38,14 +38,14 @@ nav {
 	padding: 1%;
 	margin-top: 2%;  
 	border-radius: 10px;
-	background-color: olive;
-	display: flex;
-	justify-content: space-around; 
+	background-color: olive;  
+	display: flex;   
+	justify-content: space-around;
 }
 
-.botonera {
-	display: flex;
-	justify-content: space-between;  
+nav .botonera {
+	display: flex;   
+	flex-direction: column; 
 }
 
 .boton-contacto, .boton-mis-trabajos {
@@ -103,7 +103,7 @@ p, ul {
 	font-family: Baskerville, "Times New Roman", "serif";
 }
 
-ul {
+main ul {
 	margin-left: 6%;
 }
 
