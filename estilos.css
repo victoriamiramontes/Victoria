@@ -150,11 +150,19 @@ footer {
 
 
 
-
-
+/* html: mis trabajos y html: formulario de contacto */
 
 h2 { 
 	font-size: 40px;
 	font-family: 'El Messiri', "sans-serif"; 
 }
 
+
+
+/* html: formulario de contacto */
+
+input {
+	border-radius: 8px; 
+	padding: 2%; 
+	margin: 3%; 
+}
