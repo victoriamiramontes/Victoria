@@ -11,36 +11,42 @@
 		<h2>Trabajemos juntos: Formulario de contacto</h2>
 	</header>
 	<main>
-		<form method="post" action="" target="blank" enctype="text/plain">
-			<label for="Nombre/s">Nombre/s</label>
-			<input type="text" name="Nombre/s" id="Nombre/s" placeholder="Ejemplo: Juan Pablo" required> 
+		<form method="post" action="mailto:vicmiramontesmele@gmail.com?subject=Formulario de contacto - Currículum" target="blank" enctype="text/plain">
 			
-			<label for="Apellido/s">Apellido/s</label>
-			<input type="text" name="Apellido/s" id="Apellido/s" placeholder="Ejemplo: Rodriguez" required>
-			
-			<label for="Edad">Edad</label>
-			<input type="number" name="Edad" id="Edad" placeholder="Ejemplo: 25" min="18" required> 
-			
-			<label for="País">País</label>
-			<input type="text" name="País" id="País" placeholder="Ejemplo: Argentina" required>
-				   
-			<label for="Correo electrónico">Correo electr&oacute;nico</label>
-			<input type="email" name="Correo electrónico" id="Correo electrónico" placeholder="Ejemplo: jp_rodriguez@gmail.com" required>
-			
-			<label for="Número de teléfono">Número de teléfono</label>
-			<input type="tel" name="Número de teléfono" id="Número de teléfono" placeholder="Ejemplo: 11 6818-4992" required>
-			
-			<p class="genero">G&eacute;nero</p>
-			<div class="items-genero">
-			<label>Femenino <input type="radio" name="Género" value="Femenino" id="Femenino"></label>
-			<label>Masculino <input type="radio" name="Género" value="Masculino" id="Masculino"></label>
-			<label>Otro <input type="radio" name="Género" value="Otro" id="Otro"></label>
+			<div class="columna1inputs">
+
+				<label for="Nombre/s">Nombre/s</label>
+				<input type="text" name="Nombre/s" id="Nombre/s" placeholder="Ejemplo: Juan Pablo" required> 
+
+				<label for="Apellido/s">Apellido/s</label>
+				<input type="text" name="Apellido/s" id="Apellido/s" placeholder="Ejemplo: Rodriguez" required>
+
+				<label for="Edad">Edad</label>
+				<input type="number" name="Edad" id="Edad" placeholder="Ejemplo: 25" min="18" required> 
+				
+				<label for="País">Pa&iacute;s</label>
+				<input type="text" name="País" id="País" placeholder="Ejemplo: Argentina" required>
+				
 			</div>
 			
-			
-			
-			<input type="submit"> 
-			
+			<div class="columna2inputs">
+				
+				<label for="Correo electrónico">Correo electr&oacute;nico</label>
+				<input type="email" name="Correo electrónico" id="Correo electrónico" placeholder="Ejemplo: jp_rodriguez@gmail.com" required>
+
+				<label for="Número de teléfono">N&uacute;mero de tel&eacute;fono</label>
+				<input type="tel" name="Número de teléfono" id="Número de teléfono" placeholder="Ejemplo: 11 6818-4992" required>
+
+				<p class="genero">G&eacute;nero</p>
+				<div class="items-genero">
+				<label>Femenino <input type="radio" name="Género" value="Femenino" id="Femenino"></label>
+				<label>Masculino <input type="radio" name="Género" value="Masculino" id="Masculino"></label>
+				<label>Otro <input type="radio" name="Género" value="Otro" id="Otro"></label>
+				</div>
+				
+				<input class="boton-enviar" type="submit">
+				
+			</div>
 		</form>
 	</main>
 	<footer>

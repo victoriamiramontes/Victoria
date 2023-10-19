@@ -161,16 +161,57 @@ h2 {
 
 /* html: formulario de contacto */
 
+main {
+	width: 70%; 
+}
+
+form { 
+	background-color: burlywood;
+	border-radius: 25px; 
+	width: 100%; 
+	padding: 2%; 
+	display: flex;
+	align-items: flex-start; 
+	
+}
+
+form div {
+	margin: 5%; 
+	padding: 3%;
+	
+}
+
+label {
+	display: block; 
+	font-size: 18px; 
+	font-family: Baskerville, "Times New Roman", "serif";
+}
+
 input {
 	border-radius: 8px; 
-	padding: 2%; 
-	margin: 3%; 
-	width: 30%; 
+	padding: 6%; 
+	margin: 5%; 
+	width: 100%; 
+	margin-bottom: 7%; 
+	font-size: 18px; 
+	font-family: Baskerville, "Times New Roman", "serif";
 }
 
 .items-genero {
 	width: 20%; 
 	margin: 0.5%; 
 	padding: 2%; 
+	display: flex; 
+	flex-direction: column; 
 }
+
+.boton-enviar {
+	color: white; 
+	background-color: chocolate; 
+	width: 45%; 
+	height: 5%; 
+	padding: 8%; 
+	margin-top: 30%; 
+}
+
 
