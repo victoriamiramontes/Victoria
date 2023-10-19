@@ -43,6 +43,8 @@ nav {
 	justify-content: space-around;
 }
 
+/* Comentario: Me está costando bastante el manejo o la comprensión de Flexbox. Por ejemplo, en el nav, no logro separar los botones, a pesar de haber utilizado la etiqueta space-around. Probé de todas las formas, con varias etiquetas y con el inspector, pero no entiendo que es lo que estoy haciendo mal. Me pasa lo mismo con el centrado de main, no sé porque siempre me queda hacia la izquierda. */
+
 nav .botonera {
 }
 
