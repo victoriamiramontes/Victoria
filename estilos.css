@@ -217,4 +217,18 @@ input {
 
 /* html: mis trabajos */
 
+.galeria {
+	display: flex; 
+	justify-content: center; 
+	background-color: burlywood;
+	border-radius: 25px;
+	width: 75%; 
+	padding: 4%; 
+}
+
+a img {
+	border-radius: 15px;
+	margin: 4%; 
+}
+
 
