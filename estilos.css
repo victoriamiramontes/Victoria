@@ -64,6 +64,35 @@ nav .botonera {
 	width: 100%; 
 }
 
+.boton-mis-trabajos:hover {
+	background-color: olivedrab;
+	border-style: outset; 
+	padding: 8px; 
+	border-width: 2px;
+	transform: translateY(-3px);
+	transition-duration: 0.2s;	
+}
+
+.boton-contacto:hover {
+	background-color: olivedrab; 
+	border-style: outset;
+	padding: 8px; 
+	border-width: 2px;
+	transform: translateY(-3px);
+	transition-duration: 0.2s;
+}
+	
+
+.boton-contacto:active {
+	background-color: darkolivegreen;
+	border-style: inset;
+}
+
+.boton-mis-trabajos:active {
+	background-color: darkolivegreen; 
+	border-style: inset;
+}
+
 div {
 	display: flex;  
 	flex-direction: column; 
@@ -138,7 +167,9 @@ li a {
 
 li a:hover {
 	color: darkred; 
-	font-size: 20px; 
+	font-size: 20px;
+	transform: translateY(-3px);
+	transition-duration: 0.2s;
 }
 
 li a:active {
