@@ -35,9 +35,10 @@ nav {
 	position: sticky;
 	top: 0%; 
 	width: 85%; 
+	height: 38px; 
 	padding: 0.8%;
 	margin-top: 2%;  
-	border-radius: 15px;
+	border-radius: 18px;
 	background-color: olive;  
 	display: flex;   
 	justify-content: center;
