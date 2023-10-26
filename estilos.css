@@ -217,7 +217,7 @@ h2 {
 
 /* html: formulario de contacto */
 
-main {
+.contenedor-formulario {
 	width: 70%; 
 }
 
@@ -315,12 +315,17 @@ a img:hover {
 @media screen and (max-width:600px) {
 	
 	body {
-		padding: 2%; 
+		padding: 3%; 
+	}
+	
+	main {
+		flex-direction: column; 
 	}
 	
 	header {
-	    width: 100%; 
+	    width: 90%; 
 		padding: 6%; 
+		align-items: center; 
 	}
 	
 	h1 {
@@ -339,8 +344,14 @@ a img:hover {
 		justify-content: center; 
 	}
 	
+	.sec1, .sec2, .sec3 {
+		width: 100%; 
+}
+
 	.galeria {
 		flex-direction: column; 
+		width: 80%; 
+		align-content: center; 
 	}
  
 	form {
