@@ -320,6 +320,11 @@ a img:hover {
 	
 	header {
 	    width: 100%; 
+		padding: 6%; 
+	}
+	
+	h1 {
+		font-size: 35px; 
 	}
 	
 	nav {
@@ -328,7 +333,10 @@ a img:hover {
 	}
 	
 	nav botonera {
-		width: 70%; 
+		width: 40%;  
+		height: 20%; 
+		flex-direction: column; 
+		justify-content: center; 
 	}
 	
 	.galeria {
