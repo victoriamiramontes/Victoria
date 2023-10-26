@@ -314,6 +314,10 @@ a img:hover {
 
 @media screen and (max-width:600px) {
 	
+	body {
+		padding: 0%; 
+	}
+	
 	header {
 	    width: 50%; 
 	}
