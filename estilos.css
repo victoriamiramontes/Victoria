@@ -312,5 +312,19 @@ a img:hover {
 	transition-duration: 0.2s;
 }
 
+@media screen and (max-width: 600px) {
+	header {
+	width: 90%; 
+	padding: 3%;  
+	border-width: 6%;
+	border-radius: 30px;
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 	
+}
+
+	
+}
+
 
 
