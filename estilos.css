@@ -322,12 +322,14 @@ a img:hover {
 	nav botonera {
 		width: 70%; 
 	}
-	
-.galeria {
-	display: flex; 
+.galeria { 
 	flex-direction: column;
 }
+	form {
+		flex-direction: column; 
 	}
+
+}
 
 
 
