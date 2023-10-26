@@ -334,15 +334,20 @@ a img:hover {
 	
 	nav {
 		width: 100%; 
-		flex-direction: column
+		height: 50px; 
+		align-items: center; 
 	}
 	
 	nav botonera {
-		width: 40%;  
-		height: 20%; 
-		flex-direction: column; 
-		justify-content: center; 
+		width: 100%;   
+		justify-content: space-between;
 	}
+	
+	.boton-contacto, .boton-mis-trabajos, .boton-inicio {
+		padding: 4px;
+		margin: 5px; 
+		width: 200px; 
+}
 	
 	.sec1, .sec2, .sec3 {
 		width: 100%; 
@@ -360,6 +365,7 @@ a img:hover {
 	
 	footer {
 		width: 100%; 
+		padding: 1.5%; 
 	}
 }
 
